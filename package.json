@@ -1,0 +1,40 @@
+{
+  "name": "mako-master",
+  "version": "0.1.0",
+  "description": "Master controller for Mako, a fast and easy to install PaaS",
+  "main": "index.js",
+  "bin": "./index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -R spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MakoLabs/mako-master.git"
+  },
+  "keywords": [
+    "devops",
+    "paas"
+  ],
+  "author": "@travellperkins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MakoLabs/mako-master/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.12.0",
+    "request": "~2.23.0",
+    "rimraf": "~2.2.8",
+    "mkdirp": "~0.5.0"
+  },
+  "dependencies": {
+    "async": "^0.9.0",
+    "debug": "^2.1.1",
+    "debug-levels": "^0.2.0",
+    "jsonschema": "~1.0.0",
+    "level": "~0.15.0",
+    "pushover": "~1.3.3",
+    "request": "~2.25.0",
+    "shelljs": "^0.3.0",
+    "ws": "~0.4.27"
+  }
+}

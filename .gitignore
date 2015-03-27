@@ -1,0 +1,5 @@
+repos
+node_modules
+*.db
+manifest
+.idea

@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+
+var shelljs = require('shelljs');
+
+var interval = process.env.PING_INTERVAL || 500;
+console.log('ping interval', interval);
+
+setInterval(function(){
+    shelljs.exec('curl -m 1 -s http://mako.local:7005/', {async:true});
+},interval);

@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+process.env.DEBUG='*';
+process.env.DEBUG_LEVEL='verbose';
+process.env.MASTER_HOST='localhost';
+require('../index.js');
